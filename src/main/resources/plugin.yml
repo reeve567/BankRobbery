@@ -1,0 +1,13 @@
+main: dev.reeve.bankrobbery.Main
+name: BankRobbery
+version: 1.0
+api-version: 1.16
+depend:
+  - Vault
+  - WorldGuard
+commands:
+  vault:
+    description: Check the time until it's available to be robbed again
+  bankrobbery:
+    description: Set variables for the bank robbery
+    permission: robbery.set
